@@ -7,7 +7,7 @@ on:
   pull_request:
     branches:
       - main
-
+  workflow_dispatch:
 env:
   FMOD_VERSION: 20217
   GODOT_ENGINE_VERSION: "4.1.1"
